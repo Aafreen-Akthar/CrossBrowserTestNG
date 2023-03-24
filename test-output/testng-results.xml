@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-24T12:51:48 IST" name="Suite" finished-at="2023-03-24T12:52:29 IST" duration-ms="41259">
+  <suite started-at="2023-03-24T14:08:56 IST" name="Suite" finished-at="2023-03-24T14:09:29 IST" duration-ms="33386">
     <groups>
     </groups>
-    <test started-at="2023-03-24T12:51:48 IST" name="ChromeTest" finished-at="2023-03-24T12:52:04 IST" duration-ms="16080">
+    <test started-at="2023-03-24T14:08:56 IST" name="ChromeTest" finished-at="2023-03-24T14:09:23 IST" duration-ms="27255">
       <class name="edu.training.test.CrossBrowserTest">
-        <test-method is-config="true" signature="browserInvoke(java.lang.String)[pri:0, instance:edu.training.test.CrossBrowserTest@4d154ccd]" started-at="2023-03-24T12:51:48 IST" name="browserInvoke" finished-at="2023-03-24T12:51:52 IST" duration-ms="3917" status="PASS">
+        <test-method is-config="true" signature="browserInvoke(java.lang.String)[pri:0, instance:edu.training.test.CrossBrowserTest@4d154ccd]" started-at="2023-03-24T14:08:56 IST" name="browserInvoke" finished-at="2023-03-24T14:09:01 IST" duration-ms="5280" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,38 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="login()[pri:0, instance:edu.training.test.CrossBrowserTest@4d154ccd]" started-at="2023-03-24T12:51:52 IST" name="login" finished-at="2023-03-24T12:52:04 IST" duration-ms="12104" status="PASS">
+        <test-method signature="login()[pri:0, instance:edu.training.test.CrossBrowserTest@4d154ccd]" started-at="2023-03-24T14:09:01 IST" name="login" finished-at="2023-03-24T14:09:23 IST" duration-ms="21927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- edu.training.test.CrossBrowserTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2023-03-24T12:51:48 IST" name="EdgeTest" finished-at="2023-03-24T12:52:14 IST" duration-ms="26119">
+    <test started-at="2023-03-24T14:08:56 IST" name="FirefoxTest" finished-at="2023-03-24T14:09:26 IST" duration-ms="30480">
       <class name="edu.training.test.CrossBrowserTest">
-        <test-method is-config="true" signature="browserInvoke(java.lang.String)[pri:0, instance:edu.training.test.CrossBrowserTest@25ce9dc4]" started-at="2023-03-24T12:51:48 IST" name="browserInvoke" finished-at="2023-03-24T12:51:55 IST" duration-ms="7048" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInvoke -->
-        <test-method signature="login()[pri:0, instance:edu.training.test.CrossBrowserTest@25ce9dc4]" started-at="2023-03-24T12:51:55 IST" name="login" finished-at="2023-03-24T12:52:14 IST" duration-ms="19036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- edu.training.test.CrossBrowserTest -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2023-03-24T12:51:48 IST" name="FirefoxTest" finished-at="2023-03-24T12:52:29 IST" duration-ms="41259">
-      <class name="edu.training.test.CrossBrowserTest">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:edu.training.test.CrossBrowserTest@2af004b]" started-at="2023-03-24T12:51:48 IST" name="setExtent" finished-at="2023-03-24T12:51:48 IST" duration-ms="252" status="PASS">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:edu.training.test.CrossBrowserTest@2af004b]" started-at="2023-03-24T14:08:55 IST" name="setExtent" finished-at="2023-03-24T14:08:56 IST" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="browserInvoke(java.lang.String)[pri:0, instance:edu.training.test.CrossBrowserTest@2af004b]" started-at="2023-03-24T12:51:48 IST" name="browserInvoke" finished-at="2023-03-24T12:52:00 IST" duration-ms="11917" status="PASS">
+        <test-method is-config="true" signature="browserInvoke(java.lang.String)[pri:0, instance:edu.training.test.CrossBrowserTest@2af004b]" started-at="2023-03-24T14:08:56 IST" name="browserInvoke" finished-at="2023-03-24T14:09:24 IST" duration-ms="28733" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,11 +41,85 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="login()[pri:0, instance:edu.training.test.CrossBrowserTest@2af004b]" started-at="2023-03-24T12:52:00 IST" name="login" finished-at="2023-03-24T12:52:29 IST" duration-ms="29305" status="PASS">
+        <test-method signature="login()[pri:0, instance:edu.training.test.CrossBrowserTest@2af004b]" started-at="2023-03-24T14:09:24 IST" name="login" finished-at="2023-03-24T14:09:26 IST" duration-ms="1697" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.amazon.in/&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.amazon.in.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSTSYS0000188', ip: '192.168.29.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21772, moz:profile: C:\Users\AAFREE~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c54f0df-01fc-45e1-b96b-34a05cedcf6b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.amazon.in/&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.amazon.in.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSTSYS0000188', ip: '192.168.29.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21772, moz:profile: C:\Users\AAFREE~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c54f0df-01fc-45e1-b96b-34a05cedcf6b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at edu.training.base.BaseClass.sendUrl(BaseClass.java:62)
+at edu.training.test.CrossBrowserTest.login(CrossBrowserTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- edu.training.test.CrossBrowserTest -->
     </test> <!-- FirefoxTest -->
+    <test started-at="2023-03-24T14:08:56 IST" name="EdgeTest" finished-at="2023-03-24T14:09:29 IST" duration-ms="33386">
+      <class name="edu.training.test.CrossBrowserTest">
+        <test-method is-config="true" signature="browserInvoke(java.lang.String)[pri:0, instance:edu.training.test.CrossBrowserTest@25ce9dc4]" started-at="2023-03-24T14:08:56 IST" name="browserInvoke" finished-at="2023-03-24T14:09:04 IST" duration-ms="8280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvoke -->
+        <test-method signature="login()[pri:0, instance:edu.training.test.CrossBrowserTest@25ce9dc4]" started-at="2023-03-24T14:09:04 IST" name="login" finished-at="2023-03-24T14:09:29 IST" duration-ms="25072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- edu.training.test.CrossBrowserTest -->
+    </test> <!-- EdgeTest -->
   </suite> <!-- Suite -->
 </testng-results>
